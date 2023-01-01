@@ -1,0 +1,47 @@
+#main {
+    background-color: #5213b7;
+    color: white;
+    font-weight: 800;
+    padding:20px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#amount {
+    background-color: #5213b7;
+    border: solid 1px white;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 0px;
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+#convert-btn {
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    padding: 8px 25px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.results-container {
+    background-color: rgb(235, 235, 235);
+    margin: 0px;
+    padding: 10px;
+}
+
+.results {
+    background-color: white;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+    margin: 20px;
+}

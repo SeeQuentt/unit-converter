@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    
+   <div id="main">
+    <h1>Metric/Imperial unit conversion</h1>
+    <input type="text" id="amount">
+    <button id="convert-btn">Convert</button>
+   </div>
+
+   <div class="results-container">
+
+    <div class="results">
+        <h2>Length (Meter/Feet)</h2>
+        <p id="results-length"></p>
+    </div>
+
+    <div class="results">
+        <h2>Volume (Liters/Gallon)</h2>
+        <p id="results-volume"></p>
+    </div>
+
+    <div class="results">
+        <h2>Mass (Kilograms/Pounds)</h2>
+        <p id="results-mass"></p>
+    </div>
+
+   </div>
 </body>
+<script src="main.js"></script>
 </html>
