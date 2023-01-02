@@ -11,12 +11,12 @@ const poundstoKilograms = 20/44.092
 
 function convert() { 
     const amountIn = document.getElementById("amount").value
-    let convertFeet = amountIn*feetToMeters
-    let convertMeters = amountIn*(1/feetToMeters)
-    let convertGallons = amountIn*gallonstoLiter
-    let convertLiters = amountIn*(1/gallonstoLiter)
-    let convertPounds = amountIn*poundstoKilograms
-    let convertKilograms = amountIn*(1/poundstoKilograms)
+    let convertFeet = (amountIn*feetToMeters).toFixed(2)
+    let convertMeters = (amountIn*(1/feetToMeters)).toFixed(2)
+    let convertGallons = (amountIn*gallonstoLiter).toFixed(2)
+    let convertLiters = (amountIn*(1/gallonstoLiter)).toFixed(2)
+    let convertPounds = (amountIn*poundstoKilograms).toFixed(2)
+    let convertKilograms = (amountIn*(1/poundstoKilograms)).toFixed(2)
 
     console.log(convertFeet)
 
