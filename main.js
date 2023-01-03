@@ -18,8 +18,6 @@ function convert() {
     let convertPounds = (amountIn*poundstoKilograms).toFixed(2)
     let convertKilograms = (amountIn*(1/poundstoKilograms)).toFixed(2)
 
-    console.log(convertFeet)
-
     resultsLength.innerHTML = `${amountIn} meters = ${convertMeters} feet | ${amountIn} feet = ${convertFeet} meters`
     resultsVolume.innerHTML = `${amountIn} liters = ${convertLiters} gallons | ${amountIn} gallons = ${convertGallons} liters`
     resultsMass.innerHTML = `${amountIn} kilos = ${convertLiters} pounds | ${amountIn} pounds = ${convertGallons} kilos`
